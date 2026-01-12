@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Screen Flow Pro</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; line-height: 1.55; margin: 0; padding: 0; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 28px 18px 60px; }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    .meta { opacity: 0.75; margin: 0 0 18px; }
+    h2 { font-size: 18px; margin: 26px 0 10px; }
+    p, li { font-size: 15px; }
+    ul { padding-left: 18px; }
+    .card { border: 1px solid rgba(127,127,127,0.25); border-radius: 14px; padding: 16px; margin: 16px 0; }
+    a { color: inherit; }
+    footer { margin-top: 30px; opacity: 0.7; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Privacy Policy — Screen Flow Pro</h1>
+    <p class="meta"><strong>Effective Date:</strong> January 2026</p>
+
+    <p>
+      Screen Flow Pro (“Screen Flow Pro,” “we,” “us,” or “our”) respects your privacy.
+      This Privacy Policy explains how information is handled when you use the Screen Flow Pro mobile application (the “App”).
+    </p>
+
+    <div class="card">
+      <h2>Information We Do NOT Collect</h2>
+      <p>Screen Flow Pro does <strong>not</strong> collect, store, transmit, or sell personal data.</p>
+      <p>Specifically, we do <strong>not</strong> collect:</p>
+      <ul>
+        <li>Names, email addresses, or contact information</li>
+        <li>User accounts or identifiers</li>
+        <li>Analytics or tracking data</li>
+        <li>Advertising identifiers</li>
+        <li>Location data</li>
+        <li>Usage behavior or activity logs</li>
+      </ul>
+    </div>
+
+    <h2>Screen Recordings</h2>
+    <p>
+      Screen Flow Pro allows users to record their device screen using Apple’s ReplayKit broadcast recording system.
+    </p>
+    <ul>
+      <li>All screen recordings are created and stored <strong>locally on the user’s device</strong></li>
+      <li>Recordings are saved to the <strong>Photos app</strong>, as required by iOS</li>
+      <li>Screen Flow Pro does <strong>not</strong> access, upload, or transmit recordings</li>
+      <li>We do not analyze or inspect recorded content</li>
+    </ul>
+    <p>
+      The user has full control over their recordings and may delete them at any time using the Photos app.
+    </p>
+
+    <h2>In-App Purchases and Subscriptions</h2>
+    <p>
+      Screen Flow Pro offers optional in-app purchases and subscriptions processed entirely by Apple via the App Store.
+    </p>
+    <ul>
+      <li>Payment information is handled by Apple</li>
+      <li>Screen Flow Pro does not receive or store payment details</li>
+      <li>Purchase status is verified using Apple’s StoreKit APIs</li>
+    </ul>
+
+    <h2>Data Storage</h2>
+    <p>
+      Any app-related settings (such as subscription status or usage limits) are stored <strong>locally on the device</strong>
+      using Apple-provided system storage. No data is stored on external servers.
+    </p>
+
+    <h2>Third-Party Services</h2>
+    <p>
+      Screen Flow Pro uses only Apple-provided frameworks and services, including ReplayKit, StoreKit, and Photos.
+      No third-party SDKs or analytics services are used.
+    </p>
+
+    <h2>Children’s Privacy</h2>
+    <p>
+      Screen Flow Pro does not knowingly collect personal information from children. Since no personal data is collected,
+      no special handling is required.
+    </p>
+
+    <h2>Changes to This Policy</h2>
+    <p>
+      This Privacy Policy may be updated from time to time. Any changes will be reflected on this page with an updated effective date.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      If you have questions about this Privacy Policy, you may contact:
+    </p>
+    <ul>
+      <li><strong>Developer:</strong> Dominic Aleandri</li>
+      <li><strong>Email:</strong> dom706@aol.com</li>
+    </ul>
+
+    <footer>
+      © 2026 Screen Flow Pro
+    </footer>
+  </main>
+</body>
+</html>
