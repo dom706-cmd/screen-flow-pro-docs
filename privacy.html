@@ -4,124 +4,243 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Privacy Policy — Screen Flow Pro</title>
+  <meta name="description" content="Privacy Policy for Screen Flow Pro." />
   <style>
-    :root { color-scheme: light dark; }
+    :root {
+      --bg: #0b0f14;
+      --card: #111826;
+      --text: #e8eef7;
+      --muted: rgba(232, 238, 247, 0.72);
+      --link: #76fff7;
+      --border: rgba(255,255,255,0.12);
+    }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      line-height: 1.55;
       margin: 0;
-      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #0b0f14 0%, #0b0f14 40%, #0e1520 100%);
+      color: var(--text);
+      line-height: 1.55;
     }
     .wrap {
-      max-width: 860px;
+      max-width: 920px;
       margin: 0 auto;
-      padding: 28px 18px 60px;
+      padding: 28px 16px 60px;
     }
-    h1 { font-size: 28px; margin: 0 0 8px; }
-    .meta { opacity: 0.75; margin: 0 0 18px; }
-    h2 { font-size: 18px; margin: 26px 0 10px; }
-    p, li { font-size: 15px; }
-    ul { padding-left: 18px; }
+    header {
+      padding: 18px 18px 10px;
+      border: 1px solid var(--border);
+      background: rgba(17, 24, 38, 0.68);
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 28px;
+      letter-spacing: 0.2px;
+    }
+    .meta {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
     .card {
-      border: 1px solid rgba(127,127,127,0.25);
-      border-radius: 14px;
-      padding: 16px;
-      margin: 16px 0;
+      margin-top: 18px;
+      padding: 18px;
+      border: 1px solid var(--border);
+      background: rgba(17, 24, 38, 0.68);
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+    h3 {
+      margin: 14px 0 8px;
+      font-size: 16px;
+    }
+    p, li {
+      color: var(--text);
+    }
+    .muted {
+      color: var(--muted);
+    }
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    ul {
+      margin: 10px 0 0 18px;
+      padding: 0;
+    }
+    code {
+      background: rgba(255,255,255,0.08);
+      padding: 2px 6px;
+      border-radius: 8px;
     }
     footer {
-      margin-top: 30px;
-      opacity: 0.7;
+      margin-top: 18px;
+      color: var(--muted);
       font-size: 13px;
     }
   </style>
 </head>
-<body>
-  <main class="wrap">
-    <h1>Privacy Policy — Screen Flow Pro</h1>
-    <p class="meta"><strong>Effective Date:</strong> January 2026</p>
 
-    <p>
-      Screen Flow Pro (“Screen Flow Pro,” “we,” “us,” or “our”) respects your privacy.
-      This Privacy Policy explains how information is handled when you use the Screen Flow Pro mobile application (the “App”).
-    </p>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Privacy Policy — Screen Flow Pro</h1>
+      <p class="meta"><strong>Effective date:</strong> January 13, 2026</p>
+      <p class="meta">
+        Screen Flow Pro (“Screen Flow Pro,” “we,” “us,” or “our”) respects your privacy.
+        This Privacy Policy explains what information we collect, how we use it, and your choices when you use the Screen Flow Pro mobile application (the “App”).
+      </p>
+    </header>
 
     <div class="card">
-      <h2>Information We Do NOT Collect</h2>
-      <p>Screen Flow Pro does <strong>not</strong> collect, store, transmit, or sell personal data.</p>
-      <p>Specifically, we do <strong>not</strong> collect:</p>
+      <h2>1) Summary</h2>
       <ul>
-        <li>Names, email addresses, or contact information</li>
-        <li>User accounts or identifiers</li>
-        <li>Analytics or tracking data</li>
-        <li>Advertising identifiers</li>
-        <li>Location data</li>
-        <li>Usage behavior or activity logs</li>
+        <li><strong>We do not collect or sell personal data.</strong> The App does not run a backend server and does not transmit your content to us.</li>
+        <li><strong>Recordings are created using iOS ReplayKit</strong> and are saved to the Photos app per iOS behavior.</li>
+        <li><strong>We store app data locally on your device</strong> (for example: session titles, timestamps, and markers) so you can organize your work.</li>
+        <li><strong>Purchases are handled by Apple</strong> through the App Store. We do not receive your full payment information.</li>
       </ul>
     </div>
 
-    <h2>Screen Recordings</h2>
-    <p>
-      Screen Flow Pro allows users to record their device screen using Apple’s ReplayKit
-      broadcast recording system.
-    </p>
-    <ul>
-      <li>All screen recordings are created and stored <strong>locally on the user’s device</strong></li>
-      <li>Recordings are saved to the <strong>Photos app</strong>, as required by iOS</li>
-      <li>Screen Flow Pro does <strong>not</strong> upload, transmit, or share recordings</li>
-      <li>Screen Flow Pro does <strong>not</strong> analyze or inspect recorded content</li>
-      <li><strong>Screen Flow Pro does not have access to the contents of your Photos library</strong></li>
-    </ul>
-    <p>
-      The user has full control over their recordings and may delete them at any time
-      using the Photos app.
-    </p>
+    <div class="card">
+      <h2>2) Information We Collect</h2>
 
-    <h2>In-App Purchases and Subscriptions</h2>
-    <p>
-      Screen Flow Pro offers optional in-app purchases and subscriptions processed
-      entirely by Apple via the App Store.
-    </p>
-    <ul>
-      <li>Payment information is handled by Apple</li>
-      <li>Screen Flow Pro does not receive or store payment details</li>
-      <li>Purchase status is verified using Apple’s StoreKit APIs</li>
-    </ul>
+      <h3>A. Content you create</h3>
+      <p class="muted">
+        Screen Flow Pro does not receive or upload your recordings to us.
+        Your recording content is processed on-device.
+      </p>
 
-    <h2>Data Storage</h2>
-    <p>
-      Any app-related settings (such as subscription status, recording credits,
-      or usage limits) are stored <strong>locally on the device</strong> using
-      Apple-provided system storage. No data is stored on external servers.
-    </p>
+      <h3>B. App data stored on your device (local-only)</h3>
+      <p>
+        The App stores certain information <strong>locally on your device</strong> to provide core functionality, such as:
+      </p>
+      <ul>
+        <li><strong>Session metadata</strong> (e.g., title, intent mode, created date/time, duration).</li>
+        <li><strong>Timeline markers</strong> (e.g., started/stopped/background/foreground events and time offsets).</li>
+        <li><strong>Purchase-related state</strong> (e.g., whether Pro is active, and any locally-tracked credits/limits).</li>
+      </ul>
+      <p class="muted">
+        This local-only data is used to display your library, session detail screens, and related app features.
+      </p>
 
-    <h2>Third-Party Services</h2>
-    <p>
-      Screen Flow Pro uses only Apple-provided frameworks and services, including
-      ReplayKit, StoreKit, and Photos. No third-party SDKs or analytics services are used.
-    </p>
+      <h3>C. Broadcast extension (App Group storage)</h3>
+      <p>
+        When using Broadcast Recording, the ReplayKit broadcast extension may temporarily write recording files to an on-device
+        <strong>shared App Group container</strong> so the extension can function correctly. This storage remains on-device and is not uploaded to us.
+      </p>
 
-    <h2>Children’s Privacy</h2>
-    <p>
-      Screen Flow Pro does not knowingly collect personal information from children.
-      Since no personal data is collected, no special handling is required.
-    </p>
+      <h3>D. Photos access</h3>
+      <p>
+        Screen recordings made via iOS ReplayKit are saved to the Photos app per iOS behavior.
+        <strong>The App does not request access to browse or read your Photos library</strong> for the purpose of collecting your photos.
+        You can manage Photos permissions in iOS Settings.
+      </p>
 
-    <h2>Changes to This Policy</h2>
-    <p>
-      This Privacy Policy may be updated from time to time. Any changes will be
-      reflected on this page with an updated effective date.
-    </p>
+      <h3>E. Analytics and tracking</h3>
+      <p>
+        The App does not include third-party analytics SDKs and does not track you across apps or websites.
+        We do not create user profiles or collect advertising identifiers.
+      </p>
 
-    <h2>Contact</h2>
-    <p>If you have questions about this Privacy Policy, you may contact:</p>
-    <ul>
-      <li><strong>Developer:</strong> Dominic Aleandri</li>
-      <li><strong>Email:</strong> domaleandri@gmail.com</li>
-    </ul>
+      <h3>F. Diagnostics</h3>
+      <p class="muted">
+        If you have enabled iOS system diagnostics or crash reporting, Apple may provide aggregated diagnostic information to help improve stability.
+        This diagnostic reporting is controlled by your device settings and Apple’s policies.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>3) How We Use Information</h2>
+      <p>
+        We use the information stored locally on your device only to:
+      </p>
+      <ul>
+        <li>Provide the App’s core features (library, session details, markers, and organization tools).</li>
+        <li>Maintain purchase state (e.g., Pro status) and enable features you’ve purchased.</li>
+        <li>Help ensure app stability (via Apple-controlled diagnostics if enabled on your device).</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>4) Purchases and Subscriptions</h2>
+      <p>
+        Screen Flow Pro may offer in-app purchases and/or auto-renewable subscriptions processed by Apple via the App Store.
+        Apple handles payment information. We do not collect or store your full payment details.
+      </p>
+      <p class="muted">
+        You can manage or cancel subscriptions in your Apple ID account settings.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>5) Data Sharing</h2>
+      <p>
+        We do <strong>not</strong> sell your personal data and do <strong>not</strong> share your recordings or personal information with third parties for advertising.
+      </p>
+      <p class="muted">
+        If you choose to export/share content using iOS share sheets (e.g., Messages, Mail, cloud drives), that sharing is initiated by you and handled by the selected service.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>6) Data Retention</h2>
+      <p>
+        App data (such as session metadata and markers) is stored locally on your device until you delete it (for example, by deleting sessions in the App or uninstalling the App).
+      </p>
+      <p class="muted">
+        Recordings saved to Photos are managed by you in the Photos app and may be deleted there at any time.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>7) Your Choices</h2>
+      <ul>
+        <li><strong>Delete sessions:</strong> You can delete sessions from within the App to remove associated local session data.</li>
+        <li><strong>Manage Photos:</strong> You can delete recordings from the Photos app and manage permissions in iOS Settings.</li>
+        <li><strong>Manage subscriptions:</strong> You can manage or cancel subscriptions in your Apple ID account settings.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>8) Children’s Privacy</h2>
+      <p>
+        Screen Flow Pro is not directed to children under 13, and we do not knowingly collect personal information from children.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>9) Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. We will update the “Effective date” at the top of this page when changes are made.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>10) Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy, contact:
+        <br />
+        <strong>Email:</strong> <a href="mailto:domaleandri@gmail.com">Domaleandri@gmail.com</a>
+      </p>
+      <p class="muted">
+      </p>
+    </div>
 
     <footer>
-      © 2026 Screen Flow Pro
+      <p>
+        © <span id="y"></span> Screen Flow Pro. All rights reserved.
+      </p>
+      <script>
+        document.getElementById("y").textContent = new Date().getFullYear();
+      </script>
     </footer>
-  </main>
+  </div>
 </body>
 </html>
